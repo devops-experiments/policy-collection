@@ -10,4 +10,7 @@ metadata:
 spec:
   channel: policies/demo-stable-policies-chan
   placement:
-    local: true
+    placementRef:
+      kind: PlacementRule
+      name: dev
+
