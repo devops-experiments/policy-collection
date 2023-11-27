@@ -12,5 +12,5 @@ spec:
   placement:
     placementRef:
       kind: PlacementRule
-      name: dev
+      name: demo-stable-policies-placement
 
