@@ -4,13 +4,6 @@ metadata:
   name: demo-stable-policies-app
   namespace: policies
 spec:
-  componentKinds:
-    - group: apps.open-cluster-management.io
-      kind: Subscription
-  descriptor: {}
   selector:
-    matchExpressions:
-      - key: name
-        operator: In
-        values:
-          - demo-stable-policies-sub
+    matchLabels:
+      name: obj-sub
