@@ -5,6 +5,8 @@ metadata:
     apps.open-cluster-management.io/git-branch: main
     apps.open-cluster-management.io/git-path: stable
   name: demo-stable-policies-sub
+  labels:
+    name: obj-sub
 spec:
   channel: policies/demo-stable-policies-chan
   placement:
