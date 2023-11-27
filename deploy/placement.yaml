@@ -8,7 +8,7 @@ spec:
       type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-      - key: local-cluster
+      - key: env
         operator: In
         values:
-          - "true"
+          - "dev"
